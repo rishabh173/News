@@ -23,6 +23,9 @@ body{
 .navbar-light .navbar-brand:active, .navbar-light .navbar-nav .nav-link:active{
 	color: white;
 }
+.navbar-light .navbar-toggler-icon{
+	background: url(TOGGLE.png);
+}
 nav{
 /*	box-shadow: 0 1px 5px  black;
 */}
