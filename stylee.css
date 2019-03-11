@@ -1,0 +1,131 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background: #e8e8e8;
+}
+.bg-light{
+	background: rgba(0,0,0,0.7)!important;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link{
+	color: white;
+/*	font-size: 18px;
+*/	
+}
+.navbar-light .navbar-brand:visited, .navbar-light .navbar-nav .nav-link:visited{
+	color: white;
+}
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover{
+	color: yellow;
+}
+.navbar-light .navbar-brand:active, .navbar-light .navbar-nav .nav-link:active{
+	color: white;
+}
+nav{
+/*	box-shadow: 0 1px 5px  black;
+*/}
+
+section{
+	padding: 100px;
+	padding-bottom: 50px;
+}
+.cover{
+	height: 100%;
+	width: 100%;
+	background: url('cover.jpeg');
+	background-size: cover;
+	display: table;
+}
+.covertext{
+	display: table-cell;
+	vertical-align: middle;
+/*	border: solid 1px white; 
+*/}
+.btn:hover{
+	cursor: pointer;
+}
+.cover h1{
+	font-size: 80px;
+	text-align: center;
+/*	padding-top:120px;
+*/	color: #f6f6f6;
+}
+.cover p{
+	font-size: 28px;
+	text-align: center;
+	color: #f6f6f6;
+}
+h2{
+	font-size: 30px;
+	font-family: Century Gothic;	
+	margin-bottom: 35px;
+}
+#outer{
+	height: 500px;
+	border: solid 1px white;
+	box-sizing: border-box;
+	background: url('post1.png') no-repeat;
+	background-size: cover;
+
+}
+.col-lg-6{
+	height: 250px;
+	position: relative;
+	border: solid 0.5px white;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+#inner1{
+	background: url('post2.jpg');
+	background-size: cover;
+}
+#inner2{
+	background: url('post4.jpg');
+	background-size: cover;
+}
+#inner3{
+	background: url('post3.png');
+	background-size: cover;
+}
+#inner4{
+	background: url('post5.jpg');
+	background-size: cover;
+}
+#post{
+	background: rgba(0,0,0,0.4);
+	height: 250px;
+	color: white;
+	font-size: 18px;
+	font-family: corbel;
+	text-align: center;
+
+
+/*	width: 100%
+*/}
+.col-lg-6 a{
+	text-decoration: none;
+}
+
+hr{
+	width: 60%;
+	border: solid 1.5px #bbb;
+}
+.col-md-4 a{
+	color: grey;
+}
+
+#fb:hover{
+	color: #3b5998;
+}
+#tw:hover{
+	color: #1da1f2;
+}
+#ig:hover{
+	color: #c32aa3;
+}
